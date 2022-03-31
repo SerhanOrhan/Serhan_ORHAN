@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://picsum.photos/1903/1272/?blur");
+}
+.navbar{
+    border-radius: 20px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    background-color: #8187F9;
+    width: 100%;
+    height: 44px;
+    justify-content:space-around;
+}
+.navbar-logo{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+}
+.navbar-logo h3{
+    margin: 0;
+    padding: 0;
+}
+.navbar-list{
+    background-color: #EDEEFF ;
+    width: 60%;
+    height: 95%;
+    border-radius: 15px;
+}
+.navbar-list ul li a:hover{
+    display: block;
+    background-color: #303FFF ;
+    font-size: x-large;
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    list-style: none;
+}
+.navbar-list ul li{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.navbar-list ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+    color: black;
+}
+.slider{
+    width: 800px;
+    height: 400px;
+}
+.slider-container{
+    position: relative;
+}
+#prevSlide,#nextSlide{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: wheat;
+    opacity: 0.3;
+}
+#prevSlide{
+    left: 0px;
+}
+#nextSlide{
+    right: 0px;
+}
+#buton-container{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    line-height: 400px;
+}
+.cards-popup{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: black;
+    opacity: 0.9;
+}
+.card{
+    border: none !important;
+    margin-bottom: 5px !important;
+    background-color: #FFE2D6  !important;
+}
+.card-container{
+    position: relative;
+    width: 100%;
+}
+.card-content{
+    
+    margin-top: 10px;
+
+}
+.popup{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+    height: 400px;
+    background-color: blue;
+    margin: auto;
+    margin-left: 280px;
+    margin-top: 200px;
+    position: absolute;
+    border:  1px solid black;
+    border-radius: 18px;
+}
+.close-popup{
+    position:absolute;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    top: 8px;
+    right: 8px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+.card-title{
+    display: flex;
+    width: 100%;
+    display: inline-block;
+}
+.card-title h1{
+    display: block;
+}
+.content-popup{
+    width: 100%;
+    height: 100%;
+}
+.popup-card-title{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color: black;
+    border-radius: 15px;
+}
+.detail-popup{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.popup-h2{
+    height: 100%;
+    background-color: orange;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+.popup-p{
+    height: 100%;
+    background-color: brown;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+.popup-con{
+    height: 85%;
+
+}
+.popup-row{
+    height: 85%;
+
+}
+.footer{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
