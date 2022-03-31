@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-menu{
+    display: flex;
+    flex-direction: column;
+}
+.navbar-kontrol{
+    display: none;
+}
+.navbar{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+}
+.navbar-tog{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: yellow;
+}
+.navbar-toggle img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.navbar-logo{
+    display: inline-flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+    width: 15%;
+    height: 30px;
+}
+.navbar-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 80%;
+    width: 100%;
+}
+.navbar-list ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    background-color: wheat;
+    width: 100%;
+    height: 100%;
+}
+.navbar-list ul li {
+    font-size: 20px;
+    font-weight: bolder;
+    font-size: black;
+}
+.navbar-list ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.navbar-search{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palegreen;
+}
+#navbar-search{
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+}
+#search-button{
+    height: 35px;
+    width: 45px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#slider-container{
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    height: 400px;
+
+}
+.slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.arrows{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+#prevSlide{
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%; 
+    opacity: 0.9;
+}
+#nextSlide{
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    border-radius: 100%; 
+    opacity: 0.9;
+}
+.cards-container{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 180px;
+    position: relative;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-top: 10px;
+    border: 1px red solid;
+}
+
+.main-popup{
+    position: absolute;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    border-radius: 10px;
+    display: none;
+}
+.popup{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+}
+.close-popup{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    padding-right: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: large;
+    left: 0px;
+    
+}
+.content-popup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    left: 0px;
+    margin-top: 50px;
+}
