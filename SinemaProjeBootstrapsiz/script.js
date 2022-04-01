@@ -1,10 +1,8 @@
 $(document).ready(function () {
-
-
     let sliderIndex = 0;
     let sliders = $(".slide").toArray();
-
     let x = document.querySelector(".navbar-kontrol");
+    
     $(".navbar-toggle img").click(function () {
         // $(".navbar-kontrol").css("display","block");
         if (x.style.display == "none") {
@@ -30,15 +28,23 @@ $(document).ready(function () {
         for (let i = 0; i < sliders.length; i++) {
             sliders[i].style.display = "none";
         }
-        $(".slide").eq(n).fadeTo(1000, 0.9)
+        $(".slide").eq(n).animate({width:"toggle"},"slow")
     }
 
     $(".card").click(function () {
         $(".main-popup").css("display", "block");
     })
 
-    $(".main-popup").click(function () {
+    $(".close-popup").click(function () {
         $(".main-popup").css("display", "none");
+    })
+
+
+    $(".dropdown").mousemove(function(){
+        $(".dropdown-content").css("display","block");
+    })
+    $(".dropdown").mouseleave(function(){
+        $(".dropdown-content").css("display","none");
     })
 
     slider(sliderIndex);

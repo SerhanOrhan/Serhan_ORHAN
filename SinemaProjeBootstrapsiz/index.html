@@ -17,28 +17,41 @@
     <div class="main-menu">
         <div class="navbar-tog">
             <div class="navbar-logo">CineWissen</div>
-            <div class="navbar-toggle"><img src="menu.png" alt=""></div>
-        </div>
-        <div class="navbar-kontrol">
-            <div class="navbar">
-                <div class="navbar-content">
-                    <div class="navbar-list">
-                        <ul>
-                            <li><a href="">Salon-1</a></li>
-                            <li><a href="">Salon-2</a></li>
-                            <li><a href="">Salon-3</a></li>
-                            <li><a href="">Salon-4</a></li>
-                            <li><a href="">Salon-5</a></li>
-                            <li><a href="">İletişim</a></li>
-                        </ul>
-                    </div>
-                    <div class="navbar-search">
-                        <input type="text" id="navbar-search" placeholder="Ara...">
-                        <input type="button" value="Ara" id="search-button">
+            <div class="navbar-kontrol">
+                <div class="navbar">
+                    <div class="navbar-content">
+                        <div class="navbar-list">
+                            <ul>
+                                <li class="dropdown">
+                                <div class="dropdown-kap">
+                                    <a href="" class="drop-btn">Salon-1</a>
+                                    <div class="dropdown-content">
+                                        <a href="">Spiderman</a>
+                                        <a href="">Bergen</a>
+                                        <a href="">Recep İvedik</a>
+                                    </div>
+                                </div>
+                            </li>
+                                <li><a href="">Salon-2</a></li>
+                                <li><a href="">Salon-3</a></li>
+                                <li><a href="">Salon-4</a></li>
+                                <li><a href="">Salon-5</a></li>
+                                <li><a href="">İletişim</a></li>
+                            </ul>
+                        </div>
+                        <div class="navbar-search">
+                            <input type="text" id="navbar-search" placeholder="Ara...">
+                            <input type="button" value="Ara" id="search-button">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <script>
+            $(".dropdown").mouseleave(function () {
+                $(".dropdown-content").css("display", "block");
+            })
+        </script>
         <div id="slider-container">
             <div class="slide">
                 <img src="https://picsum.photos/id/237/1366/400" alt="">
@@ -133,7 +146,8 @@
                     </div>
                 </div>
             </div>
-                <div class="main-popup">
+            <div class="main-popup">
+                <div class="popup-content">
                     <div class="close-popup">X</div>
                     <div class="popup">
                         <div class="content-popup">
@@ -142,7 +156,8 @@
                             <a href="">Detayli bilgi almak için tıkla</a>
                         </div>
                     </div>
-               </div>
+                </div>
+            </div>
         </div>
 
     </div>
