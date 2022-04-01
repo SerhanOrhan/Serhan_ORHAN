@@ -40,11 +40,14 @@ $(document).ready(function () {
     })
 
 
-    $(".dropdown").mousemove(function(){
-        $(".dropdown-content").css("display","block");
+    $(".dropdown").mousemove(function(e){
+     $(this).find(".dropdown-content").css("display","block");
+     //o anki bulunan dropdown da ki findle bul clası dropdown-content olan clasın css koduna display block ekle.
     })
     $(".dropdown").mouseleave(function(){
-        $(".dropdown-content").css("display","none");
+    $(this).find(".dropdown-content").css("display","none");
+     //o anki bulunan dropdown da ki findle bul clası dropdown-content olan clasın css koduna display none ekle.
+
     })
 
     slider(sliderIndex);
