@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #FFF2ED  ;
+}
 .main-menu{
     display: flex;
     flex-direction: column;
@@ -16,8 +19,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: aqua;
-    width: 85%;
+    background-color: #FFCEB9;
+    width: 98%;
     height: 70px;
 }
 .navbar-tog{
@@ -25,7 +28,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: yellow;
+    background-color: #FFCEB9;
 }
 .navbar-toggle img{
     width: 50px;
@@ -52,16 +55,17 @@
 .navbar-list{
     display: flex;
     flex-direction: column;
-    background-color: white;
     height: 80%;
     width: 80%;
+    border-radius: 5px;
+    background-color: #FF8D5D;
 }
 .navbar-list ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
-    background-color: wheat;
+    background-color: white;
     width: 100%;
     height: 100%;
 }
@@ -74,10 +78,15 @@
     font-size: black;
     width: 100%;
 }
+.navbar-list ul li a:hover{
+    background-color: white;
+}
 .navbar-list ul li a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
+    background-color: #FF8D5D;
+    display: block;
 }
 .navbar-search{
     height: 80%;
@@ -85,7 +94,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: palegreen;
+    margin-left: 5px;
 }
 #navbar-search{
     height: 80%;
@@ -158,9 +167,13 @@
     width: 30%;
     min-width: 30%;
     margin-top: 10px;
-    border: 1px red solid;
+    border-radius: 10px;
+    background-color: #FFFFFF ;
+    padding: 5px 10px;
 }
-
+.cards-descriptions{
+    padding: 5px;
+}
 .main-popup{
     position: absolute;
     margin: auto;
