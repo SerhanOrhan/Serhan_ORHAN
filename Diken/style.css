@@ -64,6 +64,11 @@ head{
 .header-img img {
     width: 100%;
 }
+.main-content{
+    border-bottom: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+}
 .ust-main{
     margin-top: 5px;
     width: 100%;
@@ -89,6 +94,7 @@ background-color: white;
 }
 .right-menu{
     width: 32%;
+    background-color: white;
 }
 #right-menu-img{
     width: 100px;
@@ -132,8 +138,6 @@ background-color: white;
 }
 .aside-right{
     border-bottom: 1px solid #e3e3e3;
-    border-right: 1px solid #e3e3e3;
-    border-left: 1px solid #e3e3e3;
 }
 .gun11-car{
     border-bottom: 1px solid #e3e3e3;
