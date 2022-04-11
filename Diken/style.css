@@ -131,7 +131,9 @@ background-color: white;
     background-color: white;
 }
 .aside-right{
-    border: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
 }
 .gun11-car{
     border-bottom: 1px solid #e3e3e3;
