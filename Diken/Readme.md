@@ -1,1 +1,1 @@
-https://github.com/SerhanOrhan/Serhan_ORHAN/blob/main/Diken/Demo.png
+![Diken demo Serhan ORHAN](Demo.png "Diken Demo")
