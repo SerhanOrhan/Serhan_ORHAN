@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Web ve Mobil Öğle.DESKTOP-MTU4EKB\\Desktop\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje.csproj",
+  "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,43 +15619,43 @@
   "RootNamespace": "MVC_Navbar_Active_Proje",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle.DESKTOP-MTU4EKB\\Desktop\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle.DESKTOP-MTU4EKB\\Desktop\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle.DESKTOP-MTU4EKB\\Desktop\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\About\\Index.cshtml",
-      "TargetPath": "Views\\About\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle.DESKTOP-MTU4EKB\\Desktop\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle.DESKTOP-MTU4EKB\\Desktop\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle.DESKTOP-MTU4EKB\\Desktop\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\Contact\\Index.cshtml",
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\Contact\\Index.cshtml",
       "TargetPath": "Views\\Contact\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle.DESKTOP-MTU4EKB\\Desktop\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle.DESKTOP-MTU4EKB\\Desktop\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\About\\Index.cshtml",
+      "TargetPath": "Views\\About\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\MVC_Navbar_Active_Proje\\MVC_Navbar_Active_Proje\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
