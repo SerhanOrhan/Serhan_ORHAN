@@ -1,0 +1,26 @@
+@model Yayinevleri
+@{
+    ViewData["Title"] = "Yayin Evi Ekle";
+}
+
+
+<h1>Yeni bir Yayinevi Ekle</h1>
+
+<div class="row">
+    <div class="col-sm-6">
+        <form asp-action="Create">
+            <input type="hidden" asp-for="Id">
+            <label asp-for="Ad" class="label-control"></label>
+            <input type="text" asp-for="Ad" class="form-control">
+            <label asp-for="Adres" class="label-control"></label>
+            <input type="text" asp-for="Adres" class="form-control">
+            <label asp-for="Tel" class="label-control"></label>
+            <input type="text" asp-for="Tel" class="form-control">
+            <div>
+                <input type="submit" value="Kaydet" class="btn btn-info mb-3">
+            </div>
+            <a asp-action="Index" class="btn btn-primary">Yayınevleri sayfasına geri dön</a>
+        </form>
+    </div>
+
+</div>

@@ -1,0 +1,20 @@
+@model EF_CODE_Deneme.Models.Turler
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Kitap Türünü Düzelt</h1>
+
+<div class="row">
+    <div class="col-sm-6">
+        <form asp-action="Edit">
+            <div class="form-group">
+                <label asp-for="TurAd" class="form-control"></label>
+                <input type="text" asp-for="TurAd" class="form-control">
+                <div class="form-group">
+                    <input type="submit" value="Kaydet" class="btn btn-primary">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

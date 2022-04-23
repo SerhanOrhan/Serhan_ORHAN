@@ -1,0 +1,25 @@
+@model EF_CODE_Deneme.Models.Yayinevleri
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detay Sayfası</h1>
+<div class="row">
+    <div class="col-sm-6">
+        <label class="fw-2">ID:</label>
+        <label class="text-danger">@Model.Id</label>
+    </div>
+    <div class="col-sm-6">
+        <label class="fw-2">Yayınevi Ad:</label>
+        <label class="text-success">@Model.Ad</label>
+    </div>
+    <div class="col-sm-6">
+        <label class="fw-2">Telefon No:</label>
+        <label class="text-primary">@Model.Tel</label>
+    </div>
+        <div class="col-sm-6">
+        <label class="fw-2">Adres:</label>
+        <label class="text-primary">@Model.Adres</label>
+    </div>
+</div>
+<a class="btn btn-primary" asp-action="Index">Yayınevleri Listesine Geridön</a>

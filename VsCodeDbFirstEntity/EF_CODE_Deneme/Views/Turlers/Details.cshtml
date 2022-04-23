@@ -1,0 +1,18 @@
+@model EF_CODE_Deneme.Models.Turler
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<h1>Detay Sayfası</h1>
+<div class="row">
+    <div class="col-sm-6">
+        <label class="fw-2">ID:</label>
+        <label class="text-danger">@Model.Id</label>
+    </div>
+    <div class="col-sm-6">
+        <label class="fw-2">Kitap Türü:</label>
+        <label class="text-success">@Model.TurAd</label>
+    </div>
+</div>
+<a class="btn btn-primary" asp-action="Index">Türler Listesine Geridön</a>

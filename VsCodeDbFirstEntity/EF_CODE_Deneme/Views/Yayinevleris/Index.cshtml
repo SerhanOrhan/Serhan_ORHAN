@@ -1,0 +1,33 @@
+@model List<EF_CODE_Deneme.Models.Yayinevleri>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h1>Yayınevleri Tablosu</h1>
+
+<a asp-action="Create" class="btn btn-primary">Yeni Bir Yayınevi Ekle</a>
+
+<table class="table table-hover table-sm">
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Ad</td>
+            <td>İşlem</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var yayinevi in Model)
+        {
+            <tr>
+                <td>@yayinevi.Id</td>
+                <td>@yayinevi.Ad</td>
+                <td>
+                    <a asp-action="Details" class="btn btn-info" asp-route-id="@yayinevi.Id">Detay</a>
+                    <a asp-action="Edit" class="btn btn-success" asp-route-id="@yayinevi.Id">Düzelt</a>
+                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@yayinevi.Id">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

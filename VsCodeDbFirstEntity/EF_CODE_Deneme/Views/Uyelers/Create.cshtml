@@ -1,0 +1,22 @@
+@model EF_CODE_Deneme.Models.Uyeler
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Yeni Üye Ekleme</h1>
+
+<div class="row">
+    <div class="form-group col-sm-6">
+        <form asp-action="Create">
+            <label asp-for="AdSoyad">Ad Soyad</label>
+            <input type="text" asp-for="AdSoyad" class="form-control">
+            <label asp-for="Cinsiyet"></label>
+            <input type="text" asp-for="Cinsiyet" class="form-control">
+            <div class="form-group">
+                <input type="submit" value="Kaydet" class="btn btn-success">
+            </div>
+        </form>
+            <a asp-action="Index" class="btn btn-primary">Üyeler Sayfasına Geridön</a>
+    </div>
+
+</div>

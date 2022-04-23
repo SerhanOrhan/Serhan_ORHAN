@@ -1,0 +1,35 @@
+@model List<EF_CODE_Deneme.Models.Uyeler>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h1>Üyeler Listesi</h1>
+<a class="btn btn-primary" asp-action="Create">Yeni bir Üye ekle</a>
+
+<table class="table table-sm table-hover">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ad Soyad</th>
+            <th>Cinsiyet</th>
+            <th>İşlem</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var uye in Model)
+        {
+            <tr>
+                <td>@uye.Id</td>
+                <td>@uye.AdSoyad</td>
+                <td>@uye.Cinsiyet</td>
+                <td>
+                    <a class="btn btn-success" asp-action="Details" asp-route-id="@uye.Id">Detay</a>
+                    <a class="btn btn-info" asp-action="Edit" asp-route-id="@uye.Id">Düzelt</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@uye.Id">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

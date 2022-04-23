@@ -1,0 +1,31 @@
+@model List<EF_CODE_Deneme.Models.Turler>
+@{
+    ViewData["Title"] = "Kitap Türleri";
+}
+<h1>Kitap Türleri</h1>
+
+<a class="btn btn-primary" asp-action="Create">Yeni Kitap Türü Ekle</a>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tür Adı</th>
+            <th>İşlem</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tur in Model)
+        {
+            <tr>
+                <td>@tur.Id</td>
+                <td>@tur.TurAd</td>
+                <td>
+                    <a class="btn btn-success" asp-action="Details" asp-route-id="@tur.Id">Detay</a>
+                    <a class="btn btn-info" asp-action="Edit" asp-route-id="@tur.Id">Düzelt</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@tur.Id">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

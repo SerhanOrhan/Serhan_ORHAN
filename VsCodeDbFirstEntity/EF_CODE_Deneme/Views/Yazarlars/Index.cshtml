@@ -1,0 +1,39 @@
+@model  List<Yazarlar>
+@{
+    ViewData["Title"] = "Yazarlar Listesi";
+}
+
+<h1>Yazarlar Listesi</h1>
+
+<a asp-action="Create" class="btn btn-primary">Yeni Bir Yazar Ekle</a>
+<div class="container">
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Ad Soyad</th>
+                <th>Telefon</th>
+                <th>Cinsiyet</th>
+                <th>İşlem</th>
+            </tr>
+        </thead>
+        <tbody>
+                @foreach (var yazar in Model)
+                {
+                    <tr>
+                        <td>@yazar.Id</td>
+                        <td>@yazar.AdSoyad</td>
+                        <td>@yazar.Tel</td>
+                        <td>@yazar.Cinsiyet</td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@yazar.Id" class="btn btn-success">Detay</a>
+                            <a asp-action="Edit" asp-route-id="@yazar.Id" class="btn btn-info">Düzelt</a>
+                            <a asp-action="Delete" asp-route-id="@yazar.Id" class="btn btn-danger">Sil</a>
+                        </td>
+                    </tr>
+                }
+        </tbody>
+    </table>
+
+</div>
