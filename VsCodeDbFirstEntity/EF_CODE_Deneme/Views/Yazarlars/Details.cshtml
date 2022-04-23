@@ -35,8 +35,10 @@
             </div>
             <div>
                 <label>Tür</label>
-                <input type="text" asp-for="TurlerId" class="form-control" readonly>
+                 <select asp-for="TurlerId" asp-items="ViewBag.Yazar" class="form-select form-control"
+                    disabled="disabled"></select>
             </div>
+            <a asp-action="Index" class="btn btn-primary">Yazarlar Sayfasına geri dön</a>
         </div>
     </div>
 </div>

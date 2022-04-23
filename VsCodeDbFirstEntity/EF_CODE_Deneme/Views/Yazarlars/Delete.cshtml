@@ -1,0 +1,30 @@
+@model Yazarlar
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <form asp-action="Delete" class="">
+                <label asp-for="Id" class="label-control"></label>
+                <input type="text" asp-for="Id" class="form-control" readonly>
+                <label asp-for="AdSoyad" class="label-control">Ad Soyad</label>
+                <input type="text" asp-for="AdSoyad" class="form-control" readonly>
+                <label asp-for="Cinsiyet" class="label-control"></label>
+                <input type="text" asp-for="Cinsiyet" class="form-control" readonly>
+                <label asp-for="DogumTarihi" class="label-control">Doğum Tarihi</label>
+                <input type="date" asp-for="DogumTarihi" class="form-control" readonly>
+                <label asp-for="Tel" class="label-control">Telefon</label>
+                <input type="text" asp-for="Tel" class="form-control" readonly>
+                <label asp-for="Mail" class="label-control"></label>
+                <input type="text" asp-for="Mail" class="form-control" readonly>
+                <label asp-for="Id" class="label-control">Tür</label>
+                <select asp-for="TurlerId" asp-items="ViewBag.Yazar" class="form-select form-control"
+                    disabled="disabled"></select>
+                <input type="submit" value="Sil" class="btn btn-danger">
+            </form>
+            <a asp-action="Index" class="btn btn-primary">Yazarlar Sayfasına geri dön</a>
+        </div>
+    </div>
+</div>

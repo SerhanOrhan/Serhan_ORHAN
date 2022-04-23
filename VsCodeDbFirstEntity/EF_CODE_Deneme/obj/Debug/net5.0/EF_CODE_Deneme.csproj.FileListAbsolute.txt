@@ -171,3 +171,11 @@ C:\Users\serha\OneDrive\Masaüstü\Serhan_ORHAN\Serhan_ORHAN\VsCodeDbFirstEntity
 C:\Users\serha\OneDrive\Masaüstü\Serhan_ORHAN\Serhan_ORHAN\VsCodeDbFirstEntity\EF_CODE_Deneme\obj\Debug\net5.0\Razor\Views\Yayinevleris\Create.cshtml.g.cs
 C:\Users\serha\OneDrive\Masaüstü\Serhan_ORHAN\Serhan_ORHAN\VsCodeDbFirstEntity\EF_CODE_Deneme\obj\Debug\net5.0\Razor\Views\Yazarlars\Index.cshtml.g.cs
 C:\Users\serha\OneDrive\Masaüstü\Serhan_ORHAN\Serhan_ORHAN\VsCodeDbFirstEntity\EF_CODE_Deneme\obj\Debug\net5.0\Razor\Views\Yazarlars\Details.cshtml.g.cs
+C:\Users\serha\OneDrive\Masaüstü\Serhan_ORHAN\Serhan_ORHAN\VsCodeDbFirstEntity\EF_CODE_Deneme\obj\Debug\net5.0\Razor\Views\Yazarlars\Edit.cshtml.g.cs
+C:\Users\serha\OneDrive\Masaüstü\Serhan_ORHAN\Serhan_ORHAN\VsCodeDbFirstEntity\EF_CODE_Deneme\obj\Debug\net5.0\Razor\Views\Yazarlars\Delete.cshtml.g.cs
+C:\Users\serha\OneDrive\Masaüstü\Serhan_ORHAN\Serhan_ORHAN\VsCodeDbFirstEntity\EF_CODE_Deneme\obj\Debug\net5.0\Razor\Views\Yazarlars\Create.cshtml.g.cs
+C:\Users\serha\OneDrive\Masaüstü\Serhan_ORHAN\Serhan_ORHAN\VsCodeDbFirstEntity\EF_CODE_Deneme\obj\Debug\net5.0\Razor\Views\Kitaplars\Index.cshtml.g.cs
+C:\Users\serha\OneDrive\Masaüstü\Serhan_ORHAN\Serhan_ORHAN\VsCodeDbFirstEntity\EF_CODE_Deneme\obj\Debug\net5.0\Razor\Views\Kitaplars\Details.cshtml.g.cs
+C:\Users\serha\OneDrive\Masaüstü\Serhan_ORHAN\Serhan_ORHAN\VsCodeDbFirstEntity\EF_CODE_Deneme\obj\Debug\net5.0\Razor\Views\Kitaplars\Edit.cshtml.g.cs
+C:\Users\serha\OneDrive\Masaüstü\Serhan_ORHAN\Serhan_ORHAN\VsCodeDbFirstEntity\EF_CODE_Deneme\obj\Debug\net5.0\Razor\Views\Kitaplars\Delete.cshtml.g.cs
+C:\Users\serha\OneDrive\Masaüstü\Serhan_ORHAN\Serhan_ORHAN\VsCodeDbFirstEntity\EF_CODE_Deneme\obj\Debug\net5.0\Razor\Views\Kitaplars\Create.cshtml.g.cs

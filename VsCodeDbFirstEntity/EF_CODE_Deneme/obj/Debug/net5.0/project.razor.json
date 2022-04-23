@@ -15649,6 +15649,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeDbFirstEntity\\EF_CODE_Deneme\\Views\\Yazarlars\\Delete.cshtml",
+      "TargetPath": "Views\\Yazarlars\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeDbFirstEntity\\EF_CODE_Deneme\\Views\\Turlers\\Edit.cshtml",
       "TargetPath": "Views\\Turlers\\Edit.cshtml",
       "FileKind": "mvc"
@@ -15656,6 +15661,11 @@
     {
       "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeDbFirstEntity\\EF_CODE_Deneme\\Views\\Yayinevleris\\Details.cshtml",
       "TargetPath": "Views\\Yayinevleris\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeDbFirstEntity\\EF_CODE_Deneme\\Views\\Kitaplars\\Edit.cshtml",
+      "TargetPath": "Views\\Kitaplars\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15669,8 +15679,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeDbFirstEntity\\EF_CODE_Deneme\\Views\\Kitaplars\\Create.cshtml",
+      "TargetPath": "Views\\Kitaplars\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeDbFirstEntity\\EF_CODE_Deneme\\Views\\Yazarlars\\Index.cshtml",
       "TargetPath": "Views\\Yazarlars\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeDbFirstEntity\\EF_CODE_Deneme\\Views\\Yazarlars\\Edit.cshtml",
+      "TargetPath": "Views\\Yazarlars\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeDbFirstEntity\\EF_CODE_Deneme\\Views\\Kitaplars\\Details.cshtml",
+      "TargetPath": "Views\\Kitaplars\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15679,8 +15704,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeDbFirstEntity\\EF_CODE_Deneme\\Views\\Kitaplars\\Index.cshtml",
+      "TargetPath": "Views\\Kitaplars\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeDbFirstEntity\\EF_CODE_Deneme\\Views\\Turlers\\Create.cshtml",
       "TargetPath": "Views\\Turlers\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeDbFirstEntity\\EF_CODE_Deneme\\Views\\Kitaplars\\Delete.cshtml",
+      "TargetPath": "Views\\Kitaplars\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15691,6 +15726,11 @@
     {
       "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeDbFirstEntity\\EF_CODE_Deneme\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeDbFirstEntity\\EF_CODE_Deneme\\Views\\Yazarlars\\Create.cshtml",
+      "TargetPath": "Views\\Yazarlars\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

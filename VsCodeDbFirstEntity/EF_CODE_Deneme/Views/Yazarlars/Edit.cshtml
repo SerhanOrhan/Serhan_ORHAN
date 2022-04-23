@@ -1,0 +1,32 @@
+@model Yazarlar
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Yazar Bilgisi Düzeltme Sayfası</h1>
+
+<div class="container row">
+    <div class="col-sm-6">
+        <form asp-action="Edit">
+            <label asp-for="Id" class="label-control"></label>
+            <input type="hidden" asp-for="Id">
+            <input type="text" asp-for="Id" class="form-control" readonly>
+            <label asp-for="AdSoyad" class="label-control">Ad Soyad</label>
+            <input type="text" asp-for="AdSoyad" class="form-control">
+            <label asp-for="Cinsiyet" class="label-control">Cinsiyet</label>
+            <input type="text" asp-for="Cinsiyet" class="form-control">
+            <label asp-for="DogumTarihi" class="label-control">Doğum Tarihi</label>
+            <input type="date" asp-for="DogumTarihi" class="form-control">
+            <label asp-for="Tel" class="label-control">Telefon</label>
+            <input type="text" asp-for="Tel" class="form-control">
+            <label asp-for="Mail" class="label-control">Mail Adresi</label>
+            <input type="text" asp-for="Mail" class="form-control">
+            <label asp-for="TurlerId" class="label-control">Tür</label>
+            <select asp-for="TurlerId" asp-items="ViewBag.Yazar" class="form-select form-control" disabled="disabled"></select>
+            <div>
+                <input type="submit" value="Kaydet" class="btn btn-primary">
+            </div>
+        </form>
+            <a asp-action="Index" class="btn btn-primary">Yazarlar Sayfasına geri dön</a>
+    </div>
+</div>

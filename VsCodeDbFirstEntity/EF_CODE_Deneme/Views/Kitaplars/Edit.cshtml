@@ -1,0 +1,45 @@
+@model Kitaplar
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Kitap Düzelt</h1>
+
+<div class="row">
+<div class="col-sm-6">
+<form asp-action="Edit">
+      <div>
+        <label asp-for="Isbn" class="label-control">ISBN</label>
+        <input type="text" asp-for="Isbn" class="form-control">
+    </div>
+        <div>
+        <label asp-for="Ad" class="label-control">Ad</label>
+        <input type="text" asp-for="Ad" class="form-control">
+    </div>
+        <div>
+        <label asp-for="SayfaSayisi" class="label-control">Sayfa Sayısı</label>
+        <input type="text" asp-for="SayfaSayisi" class="form-control">
+    </div>
+        <div>
+        <label asp-for="Stok" class="label-control"></label>
+        <input type="number" asp-for="Stok" class="form-control">
+    </div>
+    <div>
+            <label asp-for="TurlerId" class="control-label">Tür</label>
+            <select asp-for="TurlerId" asp-items="ViewBag.Tur" class="form-select  form-control"></select>
+    </div>
+        <div>
+            <label asp-for="YazarlarId" class="control-label">Yazar</label>
+            <select asp-for="YazarlarId" asp-items="ViewBag.Yazar" class="form-select  form-control"></select>
+    </div>
+        <div>
+            <label asp-for="YayinEvleriId" class="control-label">Yayınevi</label>
+            <select asp-for="YayinEvleriId" asp-items="ViewBag.Yayinevi" class="form-select  form-control"></select>
+    </div>
+    <div>
+        <input type="submit" value="Kaydet" class="btn btn-success">
+    </div>
+    <a asp-action="Index" class="btn btn-primary">Kitaplar Sayfasına Geridön</a>
+</form>
+</div>
+</div>
