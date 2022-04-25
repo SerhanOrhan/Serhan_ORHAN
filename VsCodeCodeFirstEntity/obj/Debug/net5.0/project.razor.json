@@ -15634,6 +15634,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeCodeFirstEntity\\Views\\Category\\Delete.cshtml",
+      "TargetPath": "Views\\Category\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeCodeFirstEntity\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -15646,6 +15651,11 @@
     {
       "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeCodeFirstEntity\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\VsCodeCodeFirstEntity\\Views\\Category\\Edit.cshtml",
+      "TargetPath": "Views\\Category\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {

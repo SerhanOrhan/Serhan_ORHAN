@@ -46,11 +46,36 @@ namespace VsCodeCodeFirstEntity.Controllers
             var selectedCategory=_context.Categories.Find(di);
             return View(selectedCategory);
         }
+
         //Get-Edit Page
-        public IActionResult Edit (int di)
+        public IActionResult Edit(int di)
         {
-            var selectEdit=_context.Categories.Find(di);
-            return View (selectEdit);
+            var item=_context.Categories.Find(di);
+            return View(item);
+        }
+        //Post-Edit Save
+        [HttpPost]
+        public IActionResult Edit(Category category)
+        {
+            _context.Update(category);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        //Get-Delete Page
+        public IActionResult Delete(int di)
+        {
+            var deleteID=_context.Categories.Find(di);
+            return View(deleteID);
+        }
+        //Post-Delete Update
+        [HttpPost, ActionName("Delete")]
+        public IActionResult DeletedCategory(int di)
+        {
+            var selectDi=_context.Categories.Find(di);
+            selectDi.IsDeleted=true;
+            _context.Categories.Update(selectDi);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }
