@@ -1,0 +1,22 @@
+@model Category
+@{
+    ViewData["Title"] = "Details-Page";
+}
+
+<h1>@Model.CategoryName ' Details</h1>
+
+
+<div class="row">
+    <div class="col-sm-6">
+        <div>
+            CategoryID : @Model.CategoryId
+        </div>
+        <div>
+            CategoryName : @Model.CategoryName
+        </div>
+        <div>
+            CategoryDescription : @Model.CategoryDescription
+        </div>
+        <a asp-action="Index" class="btn btn-primary">Back To Category Page</a>
+    </div>
+</div>

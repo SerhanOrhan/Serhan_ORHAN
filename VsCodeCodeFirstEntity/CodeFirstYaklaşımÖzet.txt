@@ -1,0 +1,62 @@
+1) Mvc Projesi oluşturma
+dotnet new mvc    komutu ile boş bir mvc projesi oluşturuyoruz.
+
+2)Gerekli Paketleri Yükleme
+VcCode ile bu işlme nuget package extension yardımıyla yapılır ve  paketelerin yüklenip yüklenmediğini  csproj dosyasından kontrol edilir.Yüklenecek Dosyalar sırasyla Şu şekildedir.
+ a)Microsoft.EntityFrameworkCore.SqlServer
+ b)Microsoft.EntityFrameworkCore.Design
+ c)Microsoft.EntityFrameworkCore.Tools
+ d)Microsoft.EntityFrameworkCore
+
+3)Models Dosyası içini düzenleme
+Models dosyasının içerisine database contextini barındıran bir Context Klasörü ve Entitylerimizi barındıran bir Entities Klasörü oluştururuz.
+
+	3.1)Models içerisindeki Entities klasörü yapısı
+
+	    Entityies klasöründe ise databasemizde bulunacak tablelar için birer class oluştururuz.
+	    Bu clasın içerisinde tableda bulunacak kolonlara birer prop oluştururuz.
+	    Daha Sonra tabloda eğer varsa foreing key yani başka tablodan değeri çekilerek yazılacak bir kolon propunu verdiğimiz satırın hemen altına
+	    bir prop daha tanımlayıp Bunun hangi class türünden olduğunu ve kullanılırken çağırılacak ismi verilir.
+
+
+	3.2)Models içerisindeki Context klasörü Yapısı
+	    Bu klasör içerisinde ise veritabanımızın adında bir class oluştururz.Örneğin VeritabaniContext.cs gibi
+	    Daha sonra bu classa bir miras vermemiz gerekir class isminin yanına : DbContext yazarız Daha sonra Using etmemiz gerekir Microsoft.EntityFrameworkCore kütüphanesinden
+	    Daha sonra bir ctor yani constractor oluştururuz. (DbContextOptions<VeritabaniContext> options  parametreli)    :base(options) {}
+	    Daha sonra ise verileri çekeceğimiz  entitylerin adına birer prop oluştururuz.
+	    Örneğin: public DbSet<Category> Categories {get; set;} şeklinde Dbset burdaki bir List gibi sarmalayan ver içerisindeki propertylerin hepsini kullanmamızı sağlar.
+	    Daha sonra bir method oluştururuz ve bu methodun amacı dbcontext build olduğunda veri tabanı giriş yapılmamış ise yolunu belirtip giriş yapılmasını sağlıyoruz.
+	    Örneğin:  
+   protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if(!optionsBuilder.IsConfigured){
+                optionsBuilder.UseSqlServer("Name=ConnectionStrings:LibraryConn");
+            }
+        }
+
+4)Appsettings.jsnon içerisine veritabanı bağlantı sorgusu yazma
+Appsettings.json içerisinde bulunan son satıra bir virgül atarak ConnectionStrings yazma skobu açarız.
+Daha sonra Tırnaklar içerisine sorguyu cağırcak isim ve  : ve tekrar tırnakla sorgu içerisine yazılır.
+Eğer farklı server isimli bir makinede çalışmak istersek yazılan sorgunun sonuna virgül atıp altına farklı isimde bir sorgu yazılabılır.
+
+5)Startup içini Düzenleme
+ConfigureServices  içerisine bir services eklememiz gereklidir.
+burada bir services.AddDbContext<VeritabaniContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("VeritabaniConn")));
+şeklinde bir soru yazılır.Bunların sırasıyla anlamı, AddDbContext methodu kullanılır VeritabanıContext türünde ve bir options adında değişkene
+UseSqlServer aracılıyıla bu veritabanı context kullan denir.Configuration.GetconnetionString Sayesinde ise Appsettings.json içersine yazdığımız
+connection string sorgusunun orada verdiğimiz değişken ismi yazılır.Yani bu sayede connetino string yolu verilmiş bir veritabanını entitiyframeworun
+usesqlserver methodu yarıdmıyla addDbcontext kullnarak bir servere bağlan demek. 
+6)Migrations oluşturma
+Yukarıdakı işlemler eksiksiz yapıldıktan sonra bu entitylerin ilişkilerini barındıran bir migrations oluşturmamız gereklidir.
+Bir Migrations oluşturmak içi aşağıdaki  kod kullanılır.
+
+dotnet ef migrations add Mig_CreateDB                   sonraki kısım ise bir isimdir.Bunun sebebi birden fazla migrastions
+
+oluşturabiliriz ne için olduğunu yazarak karışmanın önüne geçeriz.Birden fazla migrations oluşturma sebebi ise sonradan
+veritabanında bir değişikilik yapıldığında  sisteme entegre etmek için tekrar migrations oluştururuz.
+Daha sonra bu oluşan migrationsu update yardımı ile veri tabanına entegre etmemiz gereklidir. Bu kod yardımı ile bu işlem gerçekleşir
+
+dotnet ef database update 
+
+Bu komut yardımıyla artık sistemimze gerekli olan tüm entegrasyonu sağlamış bulunmaktayız.Bu işlemden sonra veritabanı kontrol
+edilierek istediğimiz özelliklerde bir veritabanı oluşup oluşmadığını kontrol ederiz.
