@@ -102,5 +102,13 @@ namespace DatabaseImageProduct.Controllers
             var secilenId = _context.Products.Find(id);
             return View(secilenId);
         }
+        [HttpPost,ActionName("Delete")]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var secilenId = _context.Products.Find(id);
+            _context.Products.Remove(secilenId);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
