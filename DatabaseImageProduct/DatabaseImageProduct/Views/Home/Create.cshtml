@@ -1,0 +1,28 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Edit Page";
+}
+
+<h1>Create a ne Product</h1>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <form asp-action="Create" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label asp-for="@Model.ProductName" class="control-label"></label>
+                    <input type="text" asp-for="@Model.ProductName" class="form-control" />
+                    <label asp-for="@Model.ProductPrice" class="control-label"></label>
+                    <input type="number" asp-for="@Model.ProductPrice" class="form-control" />
+                    <input type="file" value="Resim Seç" name="file" class="form-control" />
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-info" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>

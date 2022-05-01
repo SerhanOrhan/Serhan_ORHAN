@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = VsCodeCodeFirstEntity
-build_property.ProjectDir = c:\Users\serha\OneDrive\Masaüstü\Serhan_ORHAN\Serhan_ORHAN\VsCodeCodeFirstEntity\
+build_property.RootNamespace = DatabaseImageProduct
+build_property.ProjectDir = C:\Users\serha\OneDrive\Masaüstü\Serhan_ORHAN\Serhan_ORHAN\DatabaseImageProduct\DatabaseImageProduct\

@@ -1,0 +1,32 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Delete Page";
+}
+
+<h1>@Model.ProductName Delete Page</h1>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <form asp-action="Delete" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label asp-for="@Model.ProductId" class="control-label"></label>
+                    <input type="text" asp-for="@Model.ProductId" class="form-control" disabled="disabled" />
+                    <label asp-for="@Model.ProductName" class="control-label"></label>
+                    <input type="text" asp-for="@Model.ProductName" class="form-control" disabled="disabled" />
+                    <label asp-for="@Model.ProductPrice" class="control-label"></label>
+                    <input type="number" asp-for="@Model.ProductPrice" class="form-control" disabled="disabled"/>
+                    <label class="control-label">Mevcut Resim</label>
+                    <img src="@Model.ImageFullName" alt="Alternate Text" />
+                    <div class="form-group">
+                        <input type="hidden" asp-for="@Model.ProductId" />
+                        <input type="submit" value="Delete" class="btn btn-info" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
