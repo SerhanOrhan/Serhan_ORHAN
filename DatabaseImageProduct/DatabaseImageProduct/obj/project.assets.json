@@ -5803,11 +5803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\DatabaseImageProduct\\DatabaseImageProduct\\DatabaseImageProduct.csproj",
+      "projectUniqueName": "C:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\DatabaseImageProduct\\DatabaseImageProduct\\DatabaseImageProduct.csproj",
       "projectName": "DatabaseImageProduct",
-      "projectPath": "C:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\DatabaseImageProduct\\DatabaseImageProduct\\DatabaseImageProduct.csproj",
+      "projectPath": "C:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\DatabaseImageProduct\\DatabaseImageProduct\\DatabaseImageProduct.csproj",
       "packagesPath": "C:\\Users\\serha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\Serhan_ORHAN\\DatabaseImageProduct\\DatabaseImageProduct\\obj\\",
+      "outputPath": "C:\\Users\\serha\\OneDrive\\Masaüstü\\Serhan_ORHAN\\DatabaseImageProduct\\DatabaseImageProduct\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\serha\\AppData\\Roaming\\NuGet\\NuGet.Config",

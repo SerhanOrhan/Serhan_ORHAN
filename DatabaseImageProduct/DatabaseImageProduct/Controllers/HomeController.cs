@@ -49,7 +49,7 @@ namespace DatabaseImageProduct.Controllers
 
                 var stream = new FileStream(path, FileMode.Create);
                 file.CopyTo(stream);
-                product.ImageFullName = $"/images/{imageName}";
+                product.ImageFullName = imageName;
                 _context.Products.Update(product);
                 _context.SaveChanges();
             }
@@ -81,7 +81,7 @@ namespace DatabaseImageProduct.Controllers
 
                 var stream = new FileStream(path, FileMode.Create);
                 file.CopyTo(stream);
-                product.ImageFullName = $"/images/{imageName}";
+                product.ImageFullName = imageName;
                 _context.Products.Update(product);
                 _context.SaveChanges();
             }

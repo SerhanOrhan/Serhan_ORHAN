@@ -19,7 +19,7 @@
                     <label asp-for="@Model.ProductPrice" class="control-label"></label>
                     <input type="number" asp-for="@Model.ProductPrice" class="form-control" disabled="disabled"/>
                     <label class="control-label">Mevcut Resim</label>
-                    <img src="@Model.ImageFullName" alt="Alternate Text" />
+                    <img src="/images/@Model.ImageFullName" width="200" height="200" alt="Alternate Text" />
                     <div class="form-group">
                         <input type="hidden" asp-for="@Model.ProductId" />
                         <input type="submit" value="Delete" class="btn btn-info" />

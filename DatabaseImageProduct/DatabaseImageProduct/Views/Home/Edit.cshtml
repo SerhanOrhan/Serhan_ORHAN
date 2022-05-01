@@ -18,7 +18,8 @@
                     <input type="text" asp-for="@Model.ProductName" class="form-control" />
                     <label asp-for="@Model.ProductPrice" class="control-label"></label>
                     <input type="number" asp-for="@Model.ProductPrice" class="form-control" />
-                    <label class="control-label">Mevcut Resim @Model.ImageFullName</label>
+                    <label class="control-label">Mevcut Resim</label>
+                    <img src="/images/@Model.ImageFullName"width="200" height="200" alt="Alternate Text" />
                     <input type="file" value="Resim Seç" name="file" class="form-control"/>
                     <div class="form-group">
                         <input type="hidden" asp-for="@Model.ProductId"/>
