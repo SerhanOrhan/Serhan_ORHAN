@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px !important;
+    max-width: 100% !important;
+}
+
+.nav-logo-context {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 30px !important;
+    color: rgb(45, 196, 77) !important;
+    font-weight: 800;
+}
+
+.flag-dropdown {
+    text-decoration: none;
+    color: gray !important;
+}
+
+.background-img img {
+    max-height: 410px;
+    position: absolute;
+}
+
+.form-area {
+    position: relative;
+    top: 48px;
+}
+
+.city-input-context {
+    width: 245px;
+    height: 40px;
+}
+
+.rotate-icon {
+    color: #7cb900;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    margin-right: -8px;
+    color: #7cb900 !important;
+    cursor: pointer;
+}
+.button-arrow{
+    right: 70px;
+    margin-bottom: 10px;
+    color: white;
+}
+.person-button{
+    background-color: #2dc44d !important;
+    color: white !important;
+
+}
+.form-slider{
+    position: relative;
+    top: 48px;
+    height: 290px;
+    max-height: 290px;
+}
+.image-slide{
+    width: 570px;
+    max-width: 570px;
+    height: 290px;
+    max-height: 290px;
+}
+.slider-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.card-style{
+    height: 290px !important;
+    background-color: rgba(0,0,0,.4) !important;
+
+}
+.prev{
+    top: 1px !important;
+}
+.card-yazi{
+    border-bottom: 1px solid gray;
+}
+.section-property{
+    height: 410px !important;
+}
+.footer-content{
+    background-color: #f8faf9;
+}
+.footer-a{
+    width: 123px;
+    height: 38px;
+    font-size: 15px;
+    text-align: center;
+}

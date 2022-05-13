@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>ENUYGUN Türkiye'nin Seyahat Sitesi-Uçak Bileti, Otobüs, Otel</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+        <div class="container">
+            <a class="navbar-brand fw-bolder nav-logo-context" href="#">ENUYGUN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Uçak Bileti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Otobüs Bileti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Otel</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link fw-bolder" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            ...
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="notification-icon pe-5">
+                    <i class="fa-regular fa-xl fa-bell"></i>
+                </div>
+                <div>
+                    <div class="nav-item dropdown w-75 h-75">
+                        <a class="nav-link fw-bolder dropdown-toggle flag-dropdown" href="#" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img class="w-50 h-50" src="/flag-for-turkey-svgrepo-com.svg" alt="">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Giriş Yap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Üye Ol</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="section-property">
+        <div class="background-img container-fluid p-0"><img class="w-100" src="/ilkbaharanasayfagorseli-40330.jpeg"
+                alt=""></div>
+        <div class="container form-container">
+            <div class="row form-content">
+                <div class="col-12 col-lg-6 form-area p-0">
+                    <div class="tab-container bg-white">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item"><a class="nav-link" href=""><span class="text-black">Uçak Bileti</span></a></li>
+                            <li class="nav-item"><a class="nav-link" href=""><span class="text-black">Otel</span></a></li>
+                            <li class="nav-item"><a class="nav-link" href=""><span class="text-black">Otobüs Bileti</span></a></li>
+                            <li class="nav-item"><a class="nav-link" href=""><span class="text-black">PNR Sorgulama</span></a></li>
+                            <li class="nav-item"><a class="nav-link" href=""><span class="text-black">Bilet İptal</span></a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="flight-form d-flex align-items-center w-100 justify-content-center">
+                                <div class="city-select">
+                                    <div class=" d-flex pt-2 pb-2 ps-4 pe-4 ">
+                                        <div>
+                                            <label for="">Nereden</label>
+                                            <div class="d-flex align-items-center justify-content-end city-input-context">
+                                                <input type="text" class="form-control position-relative" placeholder="İl veya ilçe adı yazın">
+                                                <i class="fa-solid fa-location-crosshairs position-absolute me-1 rotate-icon fa-lg"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-end ps-3 pe-3 pb-2">
+                                            <i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                        </div>
+                                        <div>
+                                            <label for="">Nereden</label>
+                                            <div class="d-flex align-items-center justify-content-end city-input-context">
+                                                <input type="text" class="form-control position-relative" placeholder="İl veya ilçe adı yazın">
+                                                <i class="fa-solid fa-location-dot position-absolute me-1 rotate-icon fa-lg"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" d-flex pt-2 pb-2 ps-4 pe-4 ">
+                                        <div>
+                                            <label for="">Gidiş Tarihi</label>
+                                            <div class="d-flex align-items-center justify-content-end city-input-context">
+                                                <input type="date" class="form-control position-relative empty" placeholder="Şehir veya Havalimanı Yazın">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-end ps-3 pe-3 pb-2">
+                                            <i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                        </div>
+                                        <div>
+                                            <label for="">Dönüş Tarihi</label>
+                                            <div class="d-flex align-items-center justify-content-end city-input-context">
+                                                <input type="date" class="form-control position-relative" placeholder="Şehir veya Havalimanı Yazın">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" d-flex pt-2 pb-3 ps-4 pe-4 ">
+                                        <div>
+                                            <label for="">Kişi Sayısı</label>
+                                            <div class="d-flex align-items-center justify-content-end city-input-context">
+                                                <input type="number" class="form-control position-relative" placeholder="Kişi Sayısı Giriniz...">
+                                                <i class="fa-solid fa-user-group position-absolute me-1 rotate-icon fa-md"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-end ms-5">
+                                            <div class="d-flex align-items-end justify-content-center city-input-context ">
+                                                <button class="btn position-relative w-100 fw-bold person-button">Ucuz bilet bul</button>
+                                                <i class="fa-solid fa-arrow-right position-absolute button-arrow"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-6 form-slider d-flex align-items-center ps-5 pe-5">
+                <div id="carouselExampleIndicators" class="carousel slide slider-container" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner h-100">
+                      <div class="carousel-item active h-100">
+                          <div class="card w-100 h-100 p-5 text-white card-style">
+                              <div class="card-title card-yazi"><h3>Lorem ipsum dolor sit amet</h3></div>
+                              <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, animi? Illo doloribus perspiciatis hic. Sed rem quo earum animi accusantium!</div>
+                          </div>
+                      </div>
+                      <div class="carousel-item h-100">
+                        <div class="card w-100 h-100 p-5 text-white card-style">
+                            <div class="card-title card-yazi"><h3>Lorem ipsum dolor sit amet</h3></div>
+                            <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, animi? Illo doloribus perspiciatis hic. Sed rem quo earum animi accusantium!</div>
+                        </div>
+                      </div>
+                      <div class="carousel-item h-100">
+                        <div class="card w-100 h-100 p-5 text-white card-style">
+                            <div class="card-title card-yazi"><h3>Lorem ipsum dolor sit amet</h3></div>
+                            <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, animi? Illo doloribus perspiciatis hic. Sed rem quo earum animi accusantium!</div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer class="footer-content p-2">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="footer-top">
+                    <a class="navbar-brand fw-bolder nav-logo-context h-100" href="#">ENUYGUN</a>
+                </div>
+                <div class="footer-menu d-flex">
+                    <a href="#" class="text-decoration-none text-black footer-a"><i class="fa-brands fa-apple"></i><span class="text-black">Apple Store'dan indirin</span></a>
+                    <a href="#" class="text-decoration-none text-black footer-a"><i class="fa-brands fa-google-play"></i><span>Google Play'den indirin</span></a>
+                    <a href="#" class="text-decoration-none text-black footer-a"><i class="fa-brands fa-cc-apple-pay"></i><span>AppGallery'den indirin</span></a>
+                </div>
+                <div class="footer-social d-flex">
+                    <div class="footer-social-title">
+                        Bizi Takip Edin:
+                    </div>
+                    <div class="footer-social-link">
+                        <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>
